@@ -1,0 +1,93 @@
+/* Centering the buttons on the screen */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling the buttons */
+.log {
+  margin: 10px;
+}
+
+button {
+  display: block;
+  width: 150px; /* You can adjust the width as needed */
+  height: 50px; /* You can adjust the height as needed */
+  background-color: teal;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove outline on click */
+}
+
+button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Pop out animation on hover */
+button:hover {
+  transform: scale(1.05);
+  background-color: #a9efef; /* Darker teal on hover */
+}
+
+
+.notification {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.teachLog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+.tableDiv {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* Add scroll if table overflows */
+}
+
+.table {
+  width: 100%;
+}
+
+.head th {
+  font-weight: bold;
+}
+
+.addStu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn{
+  margin: 20px;
+}

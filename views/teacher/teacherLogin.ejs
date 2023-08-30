@@ -1,0 +1,25 @@
+
+<div class="teachLog">
+  <img class="logo1" src="https://img.freepik.com/free-vector/access-control-system-abstract-concept-vector-illustration-security-system-authorize-entry-login-credentials-electronic-access-password-passphrase-pin-verification-abstract-metaphor_335657-5746.jpg?w=740&t=st=1693393423~exp=1693394023~hmac=2fa561b93dca190f5cb84e56d01a3ee697c530ac119646a1719f7f4974a6c759" alt="cg">
+
+  <form method="POST" class="teachForm">
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password : </label>
+      <input type="password" name="password"  class="form-control" id="pass">
+      <br>
+      <input type="checkbox" style="width: 30px;" onclick="myFunction()">Show Password
+      <br>
+    </div>
+    <a><button type="submit" class="btn btn-primary">Submit</button></a>
+  </form>
+</div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("pass");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>

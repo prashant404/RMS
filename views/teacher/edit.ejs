@@ -1,0 +1,27 @@
+<div class="student-score">
+  <h2>Edit Score for: <%= user.name %></h2>
+  <form method="POST" class="edit-score-form" autocomplete="off">
+    <div class="input-group mb-3">
+      <span class="input-group-text">Name:</span>
+      <input type="text" name="name" required class="form-control" value="<%= user.name %>" aria-label="Name">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Roll No.:</span>
+      <input type="text" name="roll" value="<%= user.roll %>" required class="form-control" aria-label="Roll No.">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Maths:</span>
+      <input type="text" name="math" value="<%= user.math %>" class="form-control" aria-label="Maths">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">English:</span>
+      <input type="text" name="english" value="<%= user.english %>" class="form-control" aria-label="English">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Science:</span>
+      <input type="text" name="science" value="<%= user.science %>" class="form-control" aria-label="Science">
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a href="/teacher/viewall" class="btn btn-secondary">Back to All</a>
+  </form>
+</div>
