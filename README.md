@@ -22,7 +22,7 @@ The Result Management Application is a web-based application built using HTML, C
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/result-management-app.git
+git clone https://github.com/prashant404/RMS.git
 ```
 
 2. **Navigate to the project directory:**
