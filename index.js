@@ -7,7 +7,7 @@ const studentRoutes = require("./routes/studentlogin");
 const app = express();
 const port = 3000;
 
-mongoose.connect("mongodb://127.0.0.1:27017/RMS", {
+mongoose.connect("mongodb://127.0.0.1:27017/RMS1", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
