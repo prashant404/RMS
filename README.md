@@ -38,7 +38,7 @@ npm install
 ```
 
 4. **Configure the Database:**
-   - Open `config.js` and provide your MongoDB connection string.
+   - Open `index.js` and provide your MongoDB connection string.
 
 5. **Start the server:**
 
